@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/projectMini.git/static/css/main.852f2a30.css",
+    "main.js": "/projectMini.git/static/js/main.d9501f27.js",
+    "static/js/488.3ea8e221.chunk.js": "/projectMini.git/static/js/488.3ea8e221.chunk.js",
+    "index.html": "/projectMini.git/index.html",
+    "main.852f2a30.css.map": "/projectMini.git/static/css/main.852f2a30.css.map",
+    "main.d9501f27.js.map": "/projectMini.git/static/js/main.d9501f27.js.map",
+    "488.3ea8e221.chunk.js.map": "/projectMini.git/static/js/488.3ea8e221.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.852f2a30.css",
+    "static/js/main.d9501f27.js"
+  ]
+}
