@@ -6,7 +6,7 @@ import axios from "axios";
 const ModifierCouleur = () => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user);
-  const [ newColor, setNewColor] = useState(user.couleur);
+  const [newColor, setNewColor] = useState(user.couleur);
   const [message, setMessage] = useState("");
 
   const handleColorChange = async () => {

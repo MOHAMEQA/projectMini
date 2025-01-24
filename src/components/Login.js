@@ -3,8 +3,6 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { login } from "../redux/slice";
 import { Link, useNavigate } from "react-router-dom";
-import './Login.css';
-
 
 const Login = () => {
   const [username, setUsername] = useState("");

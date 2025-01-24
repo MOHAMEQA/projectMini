@@ -33,7 +33,7 @@ const Footer = () => {
         <footer style={styles.footer}>
         <div style={styles.address}>
             <h4>Notre Adresse</h4>
-            <p>Maroc , SAle City, 27</p>
+            <p>123 Rue des Développeurs, Tech City, 12345</p>
         </div>
 
         <div style={styles.social}>
