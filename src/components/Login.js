@@ -22,7 +22,7 @@ const Login = () => {
       if (response.data.length > 0) {
         dispatch(login(response.data[0]));
         setError([]);
-        navigate("/");
+        navigate("/projectMini/");
       } else {
         setError([...error, "Nom d'utilisateur ou mot de passe invalide"]);
         setAttempts(attempts + 1);
@@ -58,7 +58,7 @@ const Login = () => {
         </ul>
       )}
       <p>
-        Pas encore inscrit ? <Link to="/create-account">Créer un compte</Link>
+        Pas encore inscrit ? <Link to="/projectMini/create-account">Créer un compte</Link>
       </p>
     </div>
   );

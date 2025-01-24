@@ -26,7 +26,7 @@ const CreateAccount = () => {
       await axios.post('https://670ed5b73e7151861655eaa3.mockapi.io/Stagiaire', formData);
       setError([]);
       alert('Account created successfully!');
-      navigate('/login');
+      navigate('/projectMini/login');
     } catch (err) {
       setError(['An error occurred. Please try again.']);
     }

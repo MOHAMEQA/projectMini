@@ -11,7 +11,7 @@ const Layout = () => {
   const couleurAccueil = useSelector((state) => state.user.couleur);
   const location = useLocation();
 
-  const isAccueil = location.pathname === "/";
+  const isAccueil = location.pathname === "/projectMini/";
 
   return (
     <div className="container">

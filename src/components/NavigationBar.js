@@ -9,24 +9,24 @@ const NavigationBar = () => {
     <nav style={styles.nav}>
       <ul style={styles.menu}>
         <li style={styles.menuItem}>
-          <NavLink to="/" style={styles.link} activeStyle={styles.active}>
+          <NavLink to="/projectMini/" style={styles.link} activeStyle={styles.active}>
             Accueil
           </NavLink>
         </li>
 
         <li style={styles.menuItem}>
-          <NavLink to="/profile" style={styles.link} activeStyle={styles.active}>
+          <NavLink to="/projectMini/profile" style={styles.link} activeStyle={styles.active}>
             Mon Profil
           </NavLink>
         </li>
 
         <li style={styles.menuItem}>
-          <NavLink to="/color" style={styles.link} activeStyle={styles.active}>
+          <NavLink to="/projectMini/color" style={styles.link} activeStyle={styles.active}>
             Modifier la Couleur
           </NavLink>
         </li>
         <li style={styles.menuItem}>
-          <NavLink to="/requests" style={styles.link} activeStyle={styles.active}>
+          <NavLink to="/projectMini/requests" style={styles.link} activeStyle={styles.active}>
             Gérer les Demandes
           </NavLink>
         </li>
@@ -34,13 +34,13 @@ const NavigationBar = () => {
         {user.admin && (
           <>
             <li style={styles.menuItem}>
-              <NavLink to="/users" style={styles.link} activeStyle={styles.active}>
+              <NavLink to="/projectMini/users" style={styles.link} activeStyle={styles.active}>
                 Liste des Utilisateurs
               </NavLink>
             </li>
 
             <li style={styles.menuItem}>
-              <NavLink to="/add-user" style={styles.link} activeStyle={styles.active}>
+              <NavLink to="/projectMini/add-user" style={styles.link} activeStyle={styles.active}>
                 Ajouter Utilisateur
               </NavLink>
             </li>
