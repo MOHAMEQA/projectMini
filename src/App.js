@@ -18,14 +18,14 @@ const App = () => {
       <>
         {/* {shouldShowHeader && <Header />} */}
         <Routes>
-          <Route path="/create-account" element={<CreateAccount />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Layout />} >
-            <Route path="/color" element={<ModifierCouleur />} />
-            <Route path="/profile" element={<VoirMonProfile />} />
-            <Route path="/users" element={<ListeUtilisateurs />} />
-            <Route path="/requests" element={<Demandes />} />
-            <Route path="/add-user" element={<AjouterUtilisateur />} /> 
+          <Route path="/projectMini/create-account" element={<CreateAccount />} />
+          <Route path="/projectMini/login" element={<Login />} />
+          <Route path="/projectMini/" element={<Layout />} >
+            <Route path="/projectMini/color" element={<ModifierCouleur />} />
+            <Route path="/projectMini/profile" element={<VoirMonProfile />} />
+            <Route path="/projectMini/users" element={<ListeUtilisateurs />} />
+            <Route path="/projectMini/requests" element={<Demandes />} />
+            <Route path="/projectMini/add-user" element={<AjouterUtilisateur />} /> 
           </Route>
         </Routes>
       </>
