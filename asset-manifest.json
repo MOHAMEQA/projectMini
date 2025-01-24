@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/projectMini.git/static/css/main.852f2a30.css",
-    "main.js": "/projectMini.git/static/js/main.d9501f27.js",
-    "static/js/488.3ea8e221.chunk.js": "/projectMini.git/static/js/488.3ea8e221.chunk.js",
-    "index.html": "/projectMini.git/index.html",
-    "main.852f2a30.css.map": "/projectMini.git/static/css/main.852f2a30.css.map",
-    "main.d9501f27.js.map": "/projectMini.git/static/js/main.d9501f27.js.map",
-    "488.3ea8e221.chunk.js.map": "/projectMini.git/static/js/488.3ea8e221.chunk.js.map"
+    "main.css": "/projectMini/static/css/main.271def8f.css",
+    "main.js": "/projectMini/static/js/main.8e00f1c2.js",
+    "static/js/488.61cceedf.chunk.js": "/projectMini/static/js/488.61cceedf.chunk.js",
+    "index.html": "/projectMini/index.html",
+    "main.271def8f.css.map": "/projectMini/static/css/main.271def8f.css.map",
+    "main.8e00f1c2.js.map": "/projectMini/static/js/main.8e00f1c2.js.map",
+    "488.61cceedf.chunk.js.map": "/projectMini/static/js/488.61cceedf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.852f2a30.css",
-    "static/js/main.d9501f27.js"
+    "static/css/main.271def8f.css",
+    "static/js/main.8e00f1c2.js"
   ]
 }
