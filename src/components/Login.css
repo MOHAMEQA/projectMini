@@ -1,89 +1,78 @@
-.login-container {
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 90%;
-  max-width: 400px;
-  padding: 2rem;
-  text-align: center;
-}
+/* Login.css */
 
-/* Form Header */
-.login-container h1 {
-  font-size: 1.8rem;
-  color: #333333;
+/* Center the login form on the page */
+
+
+/* Style the heading */
+h1 {
+  font-size: 2rem;
   margin-bottom: 1.5rem;
+  color: #333;
 }
 
-/* Input Fields */
-.login-container input {
-  width: 100%;
-  padding: 0.8rem;
+/* Style the input fields */
+input {
+  width: 300px;
+  padding: 0.75rem;
   margin: 0.5rem 0;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 1rem;
-  box-sizing: border-box;
+  outline: none;
 }
 
-/* Button */
-.login-container button {
-  width: 100%;
-  padding: 0.8rem;
-  margin-top: 1rem;
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style the login button */
+button {
+  width: 320px;
+  padding: 0.75rem;
+  margin: 1rem 0;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.login-container button:hover {
+button:hover {
   background-color: #0056b3;
 }
 
-.login-container button:disabled {
+button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
 }
 
-/* Error Messages */
-.login-container ul {
-  list-style: none;
+/* Style the error messages */
+ul {
+  list-style-type: none;
   padding: 0;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
-.login-container ul li {
-  font-size: 0.9rem;
+li {
   color: red;
-  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
 }
 
-/* Links */
-.login-container a {
+/* Style the link to create an account */
+p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+a {
   color: #007bff;
   text-decoration: none;
 }
 
-.login-container a:hover {
+a:hover {
   text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .login-container {
-    padding: 1.5rem;
-  }
-
-  .login-container h1 {
-    font-size: 1.5rem;
-  }
-
-  .login-container input,
-  .login-container button {
-    font-size: 0.9rem;
-  }
 }
