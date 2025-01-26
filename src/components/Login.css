@@ -1,80 +1,89 @@
-/* General Styles */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  /* Login Container */
+.login-container {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  padding: 2rem;
+  text-align: center;
+}
 
-  
-  /* Heading */
-  h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333333;
+/* Form Header */
+.login-container h1 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+/* Input Fields */
+.login-container input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Button */
+.login-container button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Error Messages */
+.login-container ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.login-container ul li {
+  font-size: 0.9rem;
+  color: red;
+  margin: 0.3rem 0;
+}
+
+/* Links */
+.login-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 1.5rem;
   }
-  
-  /* Input Fields */
-  input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+
+  .login-container h1 {
+    font-size: 1.5rem;
   }
-  
-  /* Button */
-  button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+
+  .login-container input,
+  .login-container button {
+    font-size: 0.9rem;
   }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  button:disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
-  }
-  
-  /* Error Messages */
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
-  }
-  
-  li {
-    font-size: 14px;
-    color: red;
-  }
-  
-  /* Link */
-  p {
-    margin-top: 15px;
-    font-size: 14px;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+}
